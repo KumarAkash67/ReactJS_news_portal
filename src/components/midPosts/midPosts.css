@@ -1,0 +1,56 @@
+  .parentBox1{
+    flex: 5 1;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
+    margin: -80px 0px 20px 0px;
+    background-color: rgb(255, 255, 255);
+    padding: 10px 20px 0px 20px;
+    height: 868px;
+    width: 100%;
+    /* blurry border */
+    /* box-shadow: inset 0 -3em 3em rgba(0, 0, 0, 0.1), 0 0 0 0 rgb(255, 255, 255),
+    0px -5px 2px 2px rgb(246, 246, 246); */
+
+    box-shadow: inset 0 -3em 3em rgba(0, 0, 0, 0.1), 0 0 0 2px rgb(255, 255, 255),
+    0.3em 0.3em 1em rgba(0, 0, 0, 0.3);
+
+    background: linear-gradient(180deg, rgb(246, 246, 246) 10%, rgb(99, 255, 255));
+}
+.midPosts{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    height: 748px;
+    width: 100%;
+}
+.heading{
+    display: flex;
+    color: rgb(0, 0, 0);
+    justify-content: center;
+    align-items: center;
+    margin-inline: 5%;
+    font-weight: bold;
+    font-size: 20px;
+    justify-content: center;
+    width: 100%;
+    height: 5%;
+    border-radius: 20px 20px 20px 20px;
+    font-family: 'Source Code Pro', monospace;
+    background-color:rgb(217, 255, 255);
+    box-shadow: inset 0px 0px 4px 2px rgb(163, 216, 216);
+}
+.heading:hover{
+    transform: scale(1.1);
+    transition: 0.3s;
+}
+
+.midPosts:hover{
+    box-shadow: inset 0 -3em 3em rgba(0, 0, 0, 0.1), 0 0 0 4px rgb(255, 255, 255),
+    0.9em -0.3em 1em rgba(0, 0, 0, 0.1);
+    z-index: 2;
+    /* transform: translate(50px,-100px); */
+    transition: 0.3s;
+  }

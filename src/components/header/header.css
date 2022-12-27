@@ -1,0 +1,52 @@
+.header {
+  margin-top: 60px;
+}
+
+.headerTitles {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.headerTitleSm {
+  position: absolute;
+  top: 50%;
+  font-size: 40px;
+  font-weight: bolder;
+  font-family: 'Dancing Script', cursive;
+  color: rgb(0, 255, 229);
+  filter:blur(8px);
+  /* font-family:Georgia, 'Times New Roman', Times, serif; */
+}
+
+.headerTitleSm:hover{
+   filter: blur(1.5px);
+   font-size: 70px;
+   transition: 0.5s;
+   translate: 0px -50px;
+}
+
+.headerTitleLg {
+  position: absolute;
+  top: 10%;
+  font-size: 100px;
+  font-family: 'Dancing Script', cursive;
+  color: rgb(0, 255, 229);
+ 
+}
+.headerTitleLg:hover{
+  translate: 0px 50px;
+  /* transform: rotateZ(360deg); */
+  transition: 0.5s;
+}
+
+.headerImg {
+  position:relative;
+  width: 100%;
+  height: 450px;
+  margin-top: -60px;
+  object-fit: cover;
+  filter: blur(4px);
+  /* -webkit-filter: blur(1px); */
+  z-index: -1;
+}
